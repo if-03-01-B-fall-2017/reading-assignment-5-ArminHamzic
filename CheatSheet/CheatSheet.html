@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reading Assigment 5</title>
+	</head>
+	<body>
+		<article>
+			<section>
+				<h1>HTML</h1>
+				<h3>HTML Headings</h3>
+				<p>headings are form &lt;h1&gt; to &lt;h6&gt; -most to least important</p>
+				<br />
+				<h3>HTML Paragraphs</h3>
+				<p>paragraphs are made with &lt;p&gt;</p>
+				<p> a text inside a &lt;pre&gt; element is displayed in a fixed.width front</p>
+				<br />
+				<h3>HTML Comments</h3>
+				<p>Comments start with &lt;!-- and end with --&gt;</p>
+				<br />
+				<h3>HTML Links</h3>
+				<p>links can be made with &lt;a href="Link"&gt;Text which is displayed&lt;/a&gt;</p>
+				<br />
+				<h3>HTML Images</h3>
+				<p>images can be displayed with &lt;img src="name of the pic" alt="name that is displayed on the webside" width="" height=""&gt;</p>
+				<p> if you want to use an image in a other folder you have to write the link infront of the pictures name</p>
+				<p>if you want to use a picture from anoter server you have to write the link of the image instead of the name</p>
+				<br />
+				<h3>HTML Head element</h3>
+				<p>The &lt;head&gt; element is a container for metadata and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag</p>
+				<p>The &lt;title&gt; element defines the title of the document, and is required in all HTML documents</p>
+				<p>The &lt;meta&gt; element is used to specify which character set is used, page description, keywords, author, and other metadata</p>
+				<br />
+			</section>
+			<section>
+				<h1>CSS</h1>
+				<h3>Syntax</h3>
+				<p>A CSS rule-set consists of a selector (h1,p,...) and a declaration block(color:blue; , front-size:12px; ,...)</p>
+				<br />
+				<h3>Css Colors</h3>
+				<p>In HTML, a color can be specified by using a color name: Tomato,Gray,Violet,...</p>
+				<p>In HTML, a color can be specified using a hexadecimal value in the form: #rrggbb </p>
+				<br />
+				<h3>Css Backgrounds</h3>
+				<p>body {background-color: lightblue;} -sets the backgroundcolor of this page to lightblue</p>
+				<p>body {background-image: url("name of the pic");} -changes the background to a certain pic</p>
+				<p>if you want to change the way the pic is repeated you have to write background-repeat: repeat-x/y;</p>
+				<p> you can dix a pic in the background by using background-attachment: fixed;</p>
+				<br />
+				<h3>Css Text</h3>
+				<p>you can change the color of the text by using color: green(or blue,...);</p>
+				<p>you can change the text alignment by using text-align:center/left/right;</p>
+				<p>you can add text decoration by using text-decoration: obverline/underline/line-through;</p>
+				<p>you can add a text transformation by using text-transform: uppercase/lowercase/capitalize; </p>
+				<br />
+				<h3>Css Fonds</h3>
+				<p>you can add fonts by using font-family:"Times New Roman", Times, serif; </p>
+				<p>you can add font styles by using p.normal {font-style: normal;}</p>
+				<p>you can change the font size with font-size: 12px/2.5em;;</p>
+				<p>you can change the font weight by using font-weight:normal/bold/200;</p>
+				<br />
+				<h3>Css Links</h3>
+				<p>a {color: hotpink;} -changes the color of the link</p>
+				<p>a:link{color: red;} -unvisited link</p>
+				<p>a:visited {color: green;} -visited link</p>
+				<p>a:hover {color: hotpink;} -mouse ober link</p>
+				<p>a:active {color: blue;} -selected link</p>
+				<br />
+				<h3>Css Combinators</h3>
+				<p>div p {background-color: yellow;} changes all &lt;p&gt; to yellow</p>
+				<p>div > p {background-color: yellow;} changes all &lt;p&gt; with no more tag to yellow</p>
+				<p>div + p {background-color: yellow;} changes the first p tag to yellow which is after the div element</p>
+				<p>div ~ p {background-color: yellow;} changes all p tags after the div element to yellow</p>
+				<br />
+				<h3>Css Pseudo-classes</h3>
+				<p>selector:pseudo-class {property:value;} -syntax</p>
+				<p>a:link{color: red;} -unvisited link</p>
+				<p>a:visited {color: green;} -visited link</p>
+				<p>a:hover {color: hotpink;} -mouse ober link</p>
+				<p>a:active {color: blue;} -selected link</p>
+				<p>div:hover {background-color: blue;} -changes the color of the taxt if you hover over </p>
+				<p>The :first-child pseudo-class matches a specified element that is the first child of another element</p>
+				<br />
+				<h3>Class selector</h3>
+				<p>The .class selector selects elements with a specific class attribute.</p>
+				<p>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+				<p>HTML elements can also refer to more than one class!</p>
+				<p>Example: &lt;p class="center large"&gt;This paragraph refers to two classes.&lt;/p&gt;</p>
+				<br />
+				<h3>ID Selector</h3>
+				<p>The #id selector styles the element with the specified id.</p>
+        <p>Syntax: #id { css declarations; }</p>
+				<br />
+				<h3>Css Box Model</h3>
+				<p>The CSS box model is essentially a box that wraps around every HTML element.</p>
+        <p>It consists of: margins, borders, padding, and the actual content.</p>
+        <img src="boxmodel.png" alt="">
+				<br />
+				<h3>Floating</h3>
+				<p>The CSS float property specifies how an element should float.</p>
+				<p>The CSS clear property specifies what elements can float beside the cleared element and on which side.</p>
+				<p>-----------------------------------------------------------------------------------------------------------------------------</p>
+				<p>The float property is used for positioning and layout on web pages.</p>
+				<p>Values: left, right, none, inherit</p>
+				<p>-----------------------------------------------------------------------------------------------------------------------------</p>
+				<p>The clear property lets specifies what elements can float beside the cleared element and on which side.</p>
+				<p>Values: left, right, none, inherit, both</p>
+				<br />
+				<h3>The clearfix Hack</h3>
+				<p>If an element is taller than the element containing it, and it is floated, it will overflow outside of its container.</p>
+				<p>Example: .clearfix { overflow: auto; }</p>
+				<br />
+			</section>
+		</article>
+	</body>
+</html>
